@@ -1,3 +1,10 @@
+/*
+Eric Wolfe
+Dr. Yu
+CS 490 - Data Mining
+ID3 Program
+ */
+
 #include <string>
 #include <iostream>
 #include <fstream>
