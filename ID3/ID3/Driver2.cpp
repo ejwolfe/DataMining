@@ -8,6 +8,7 @@ ID3 Program
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <math.h>
 
 using namespace std;
 
@@ -53,6 +54,11 @@ string getInput(string &line)
 	string substring = line.substr(0, line.find(","));
 	line.erase(0, line.find(",") + 1);
 	return substring;
+}
+
+double getEntropy(int size, int num1, num2)
+{
+    return 
 }
 
 int main()
