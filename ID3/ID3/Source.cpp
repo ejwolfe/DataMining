@@ -27,7 +27,7 @@ struct weather
 	string outlook; //outlook {sunny, overcast, rainy}
 	string temp; //temperature {hot, mild, cool}
 	string hum; //humidity {high, normal}
-	string windy; //windy {TRUE, FALSE} 
+	string windy; //windy {TRUE, FALSE}
 	string play; //play {yes, no}
 };
 
@@ -317,6 +317,7 @@ node id3(vector<weather> examples, vector<int> attributes, int targetAttribute)
 		if (answers[i] == examples.size())
 		{
 			n1.label = values[i];
+			return n1;
 		}
 	}
 	if (attributes.empty())
@@ -390,6 +391,7 @@ node id3(vector<weather> examples, vector<int> attributes, int targetAttribute)
 			n1.label = "play";
 			break;
 		}
+		return n1;
 	}
 	double gain = 0, prevGain = 0;
 	int bestA = 0;
