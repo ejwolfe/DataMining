@@ -1,3 +1,8 @@
-﻿  Driver.cpp
+﻿  Source.cpp
+d:\documents\github\datamining\id3\id3\source.cpp(224): warning C4018: '<': signed/unsigned mismatch
+d:\documents\github\datamining\id3\id3\source.cpp(284): warning C4018: '<': signed/unsigned mismatch
+d:\documents\github\datamining\id3\id3\source.cpp(305): warning C4018: '<': signed/unsigned mismatch
+d:\documents\github\datamining\id3\id3\source.cpp(316): warning C4018: '<': signed/unsigned mismatch
+d:\documents\github\datamining\id3\id3\source.cpp(397): warning C4018: '<': signed/unsigned mismatch
   ID3.vcxproj -> D:\Documents\GitHub\DataMining\ID3\Debug\ID3.exe
   ID3.vcxproj -> D:\Documents\GitHub\DataMining\ID3\Debug\ID3.pdb (Full PDB)
